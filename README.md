@@ -1,4 +1,4 @@
-##1. Smart home IoT project
+## 1. Smart home IoT project
 <p>
 In this application main the focus was to simulate a smart home
 IoT solution using a microcontroller, namely a ATmega328P incorporated 
@@ -9,20 +9,20 @@ The simulation design can be seen in the following image:</p>
 
 ![image](Images/Smart_home_sim_design.jpg)
 
-###1.1 Locking system
+### 1.1 Locking system
 The first functionality of the application is to
 open a door to a user house to achieve that a keypad
 is used to obtain the password if the password is
 correct the servo-motor simulates a door being opened.
 
-###1.2 Temperature control system
+### 1.2 Temperature control system
 If the temperature measured by the sensor is below the reference a warming system is simulated
 by coupling a relay that is supposed to turn on
 a warming element. Otherwise if the temperature is above the set-point then a cooling device is
 simulated by turning on a dc motor with is controller with a PWM signal
 from the microcontroller.
 
-###1.3 Interactive LCD display
+### 1.3 Interactive LCD display
 To help the user interact with the system useful details are displayed on
 the LCD display like the temperature measured and the status of the temperature control
 system. When the user tries to open or close the door he will know if the password was correct
