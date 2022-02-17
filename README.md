@@ -1,3 +1,5 @@
+# Embedded development using microcontrollers
+
 ## 1. Smart home IoT project
 <p>
 In this application main the focus was to simulate a smart home
